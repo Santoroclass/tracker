@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:habittrackertute/components/habit_tile.dart';
-import 'package:habittrackertute/components/month_summary.dart';
-import 'package:habittrackertute/components/my_fab.dart';
-import 'package:habittrackertute/components/my_alert_box.dart';
-import 'package:habittrackertute/data/habit_database.dart';
+import 'package:tracker/components/habit_tile.dart';
+import 'package:tracker/components/month_summary.dart';
+import 'package:tracker/components/my_fab.dart';
+import 'package:tracker/components/my_alert_box.dart';
+import 'package:tracker/data/database.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 class HomePage extends StatefulWidget {
